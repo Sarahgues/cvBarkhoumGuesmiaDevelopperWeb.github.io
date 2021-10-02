@@ -1,1 +1,34 @@
+$primary: rebeccapurple;
+$danger: #dd0000;
+$success: lime;
+$warning: orange;
+$info: aqua;
+$body-bg: #f3f3f0;
+@import "bootstrap";
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-image: url("images/image_bg.jpg");
+    position: absolute;
+    height: 600px;
+    min-width: 1400px;
+}
+
+#titre {
+    position: relative;
+    top: 22rem;
+    left: 10rem;
+}
+
+li {
+    color: red;
+    text-transform: text-uppercase;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 1rem;
+}
