@@ -12,16 +12,58 @@ header {
 
 #titre {
     position: relative;
-    top: 22rem;
-    left: 10rem;
+    top: 52%;
+    left: 10%;
 }
 
-li {
-    color: red;
-    text-transform: text-uppercase;
+#itemSkills {
+    width: 100%;
+    position: relative;
+    top: 55%;
 }
 
 #menu {
     background-color: rgba(0, 0, 0, 0.418);
     padding: 1rem;
+}
+
+.skill-box i {
+    font-size: 5rem;
+    transition: 0.3s ease;
+    -webkit-transition: all 0.5s;
+}
+
+.skill-box {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skill-box i:hover {
+    transition: 0.3s ease;
+    -webkit-transition: all 0.5s;
+}
+
+.skill-box .fa-code:hover {
+    color: darkorchid;
+}
+
+.skill-box .fa-database:hover {
+    color: #3498db;
+}
+
+.skill-box .fa-mobile-alt:hover {
+    color: #e74c3c;
+}
+
+.skill-box .fa-chart-line:hover {
+    color: #2ecc71;
+}
+
+
+/* mediaqueries tablette */
+
+@media screen and (max-width: 1023px) .skill-box i {
+    font-size: 3em;
 }
